@@ -1,0 +1,5 @@
+- id: version_sync
+  name: version_sync
+  entry: version_sync.py
+  language: python
+  types: [python]
