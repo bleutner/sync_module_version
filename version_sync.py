@@ -4,10 +4,10 @@ import re
 import sys
 from pathlib import Path
 
-def main():
+def main(argv=None):
     # Check if the commit contains changes to __init__.py
-    print(sys.stdin.read().splitlines())
-    if "__init__.py" in sys.stdin.read().splitlines():
+    print(argv)
+    if "__init__.py" in argv[0]:
         init_file = Path("__init__.py")
 
         with init_file.open() as f:
