@@ -1,6 +1,6 @@
 - id: version_sync
   name: version_sync
-  entry: version_sync.py
+  entry: version_sync
   files: __init__.py$
   verbose: true
   language: python
